@@ -26,3 +26,18 @@ class homo_sapiens(human):
 
 gan=sapiens()
 gan.leg_count()
+
+
+##is instance and is sub_class
+
+class one:
+    pass
+class two(one):
+    pass
+class three:
+    pass
+
+o=one()
+b=three()
+print(isinstance(b,one))
+print(issubclass(two,one))
