@@ -1,0 +1,70 @@
+class
+object
+inheritace
+polymorpism
+abstraction
+encapsulation
+
+Abstraction: 
+--> the process of hiding the real implementation of an application from the user
+
+--> Abstraction is used to hide the internal functionality of the function from the users.
+
+--> User is familiar with that "what function does" but they don't know "how it does."
+
+ex: brake in car,music player
+
+Encapsulation:(capsule)
+
+--> binding data and code,object together in an data and keep safe from outside interface and wrappers
+
+--> this can be achived by access specifiers(public,private,proctected)
+	public--> access for inherited class and other package  ex:ifsc code
+	private --> only access for that class only (__)  ->pin number
+	protected -->only for that package (_)  ->one bank
+
+-->the process of wrapping up variables and methods into a single entity.
+
+class:
+-->A class is a user-defined blueprint or prototype from which objects are created.
+
+object:
+ --> an real world entity for the class
+
+ex: Bird --> sparrow,eagel,crow
+    flower --> Rose,vani,lily
+    player --> sachien , dhoni 
+
+Inheritance:
+--> One class acquires properties(behaviors) of another class
+
+--> to reduce the reuce of code
+
+--> single,multiple,multilevel
+
+-->parentclass,base class,superclass -->childclass,derived class,sub class
+
+single:
+parent -->child
+
+multiple:
+parent,grandparent -->child
+
+multilevel:
+parent -->child1
+
+parent -->child2
+
+constuctor:
+--> when the object is created ..constructor starts to run
+
+oops:
+
+-->abstract class
+	-->
+
+--> method overloading
+
+--> method overriding
+
+-->static
