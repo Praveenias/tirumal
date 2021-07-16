@@ -6,7 +6,7 @@ class person:
         return self.name
     def set_age(self,age_var):
         self.age=age_var
-    def __get_age(self):
+    def _get_age(self):
         return self.age
     
 
