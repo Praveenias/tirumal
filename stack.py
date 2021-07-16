@@ -58,3 +58,12 @@ for i in range(stack_obj.lenght_of_stack()):
     stack_obj.pop_list()
 stack_obj.display()
 stack_obj.pop_list()
+
+
+# output:
+# [1, 2, 3, 4, 5]
+# moodra thirumal
+# []
+# inga onnum illa da mairu
+
+
