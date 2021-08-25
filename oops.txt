@@ -53,7 +53,15 @@ parent,grandparent -->child
 multilevel:
 parent -->child1
 
-parent -->child2
+child1 -->child2
+
+Hierarchical Inheritance:
+
+parent1 ->child1
+parent1 ->child2
+
+hybrid:
+(single+hierarical+multilevel)
 
 constuctor:
 --> when the object is created ..constructor starts to run
@@ -61,7 +69,8 @@ constuctor:
 oops:
 
 -->abstract class
-	-->
+	-->cannot create object
+	-->should be use the abstratc method while inheriating abstrct class
 
 --> method overloading
 
