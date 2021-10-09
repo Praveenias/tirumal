@@ -22,5 +22,8 @@ urlpatterns = [
     path('home',views.home),
     path('formdata',views.form),
     path('register',views.registerr),
-    path('registerdata',views.registerdata)
+    path('registerdata',views.registerdata),
+    path('forget',views.forget),
+    path('changepass',views.changepass),
+    path('displayuser',views.displayuser)
 ]
