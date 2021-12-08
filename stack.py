@@ -31,13 +31,13 @@ class stackk:
         self.stack_size=size
     def insert_list(self,num):
         if self.stack_size == self.lenght_of_stack():
-            print("moodra thirumal")
+            print("overflow")
         else:
             self.stack_list.append(num)
 
     def pop_list(self):
         if self.lenght_of_stack() == 0:
-            print("inga onnum illa da mairu")
+            print("underflow")
         else:
             self.stack_list.pop()
 
@@ -61,9 +61,9 @@ stack_obj.pop_list()
 
 
 # output:
-# [1, 2, 3, 4, 5]
-# moodra thirumal
-# []
-# inga onnum illa da mairu
+
+
+
+
 
 
